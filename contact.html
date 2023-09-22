@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+<section  class="sub-header">
+    <nav>
+        <a href="index.html"><img src="./pics/logo-removebg-preview.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+</section>
+
+<!-- contact us -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6807268793114!2d35.312217911272334!3d0.47584029951749857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1780fd19b8a7b25d%3A0x1895902d63afb488!2sFaith%20College%20Of%20The%20Bible!5e0!3m2!1sen!2ske!4v1695407895461!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>xyz road, fcb building</h5>
+                    <p>Eldoret Kenya</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>+25412345678</h5>
+                    <p>Monday to Friday, 8AM to 5PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>fcb@template.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+<div class="contact-col">
+    <form action="form handler.php" method="post">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email"  placeholder="Enter email address" required>
+        <input type="text" name="subject" placeholder="Enter your subject" required>
+        <textarea rows="8" name="Message" placeholder="Message" required></textarea>
+        <button type="submit" class="hero-btn pup-btn">Send Message</button>
+    </form>
+</div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!--Footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error pariatur nihil reiciendis ex culpa, 
+        magni vero placeat aut ipsum soluta vitae amet assumenda cumque accusantium inventore ipsa, 
+        <br>esse quaerat deleniti?</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            
+            
+        </div>
+</section>
+
+
+
+<!--JavaScript for the toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
