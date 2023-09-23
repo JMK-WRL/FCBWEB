@@ -6,7 +6,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/images1.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/header1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -39,7 +39,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: #5f36f4;
+    background: #976057;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -76,8 +76,8 @@ nav img {
     cursor: pointer;
 }
 .hero-btn:hover {
-    border: 1px solid #5f36f4;
-    background: #5f36f4;
+    border: 1px solid #976057;
+    background: #976057;
     transition: ls;
 }
 
@@ -94,7 +94,7 @@ nav .fa-solid{
     }
     .nav-links {
         position: fixed;
-        background: #5f36f4;
+        background: #8c8484;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -146,7 +146,7 @@ p {
 
 .course-col {
     flex-basis: 31%;
-    background: #d2cce5;
+    background: #d8c8c6;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -160,7 +160,7 @@ p {
  }
 
  .course-col:hover {
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px -1px 24px 0px rgba(0,0,0,0.69);
  }
  @media (max-width: 700px) {
     .row {
@@ -202,7 +202,7 @@ p {
     transition: 0.5s;
 }
 .layer:hover{
-    background: rgba(112, 112, 238, 0.7);
+    background: rgba(82,60,68);
 
 }
 .layer h3{
@@ -340,7 +340,7 @@ p {
 
 }
 .icons .fa-brands{
-    color: #5f36f4;
+    color: #976057;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
@@ -349,10 +349,10 @@ p {
 
 /*--- about us page ---*/
 
-.sub-header{
+.sub-header1{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,40,0.7),rgba(4,9,40,0.7)),url(images/images1.jpg);
+    background-image: linear-gradient(rgba(4,9,40,0.7),rgba(4,9,40,0.7)),url(images/header4.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -388,9 +388,9 @@ p {
 }
 
 .pup-btn{
-    border: 1px solid #5f36f4;
+    border: 1px solid #976057;
     background: transparent;
-    color: #5f36f4;
+    color: #976057;
 }
 
 .pup-btn:hover {
@@ -418,7 +418,7 @@ p {
     margin: 30px 0;
 }
 .blog-left p{
-    color: #999;
+    color: #110101;
     padding: 0;
 }
 
@@ -498,7 +498,7 @@ p {
 }
 .contact-col div .fa-solid {
     font-size: 28px;
-    color: #5f36f4;
+    color: #976057;
     margin: 10px;
     margin-right: 30px;
 }
@@ -521,4 +521,36 @@ p {
     outline: none;
     border: 1px solid #ccc;
     box-sizing: border-box;  
+}
+
+/* --- contact --- */
+.sub-header4{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,40,0.7),rgba(4,9,40,0.7)),url(images/header4.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+/* --- blog --- */
+.sub-header3{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,40,0.7),rgba(4,9,40,0.7)),url(images/blog1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+/* --- courses --- */
+.sub-header2{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,40,0.7),rgba(4,9,40,0.7)),url(images/bible1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
 }
